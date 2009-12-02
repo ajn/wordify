@@ -1,0 +1,11 @@
+== Wordify
+
+Wordify converts Numerics into words (currently only British English format).
+
+Example:
+
+  120345.in_words #=> "one hundred and twenty thousand, three hundred and fourty five"
+
+And in tokens...
+
+  120345.in_words(:tokens => true) #=> "one two zero three four five"
